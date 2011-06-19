@@ -2,4 +2,5 @@
 <resources>
     <string name="hello">Hello World, Gps_testingActivity!</string>
     <string name="app_name">Gps_testing</string>
+    <string name="Quit">Quit</string>
 </resources>

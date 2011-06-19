@@ -23,10 +23,8 @@ import android.widget.Toast;
 		{
 			loc.getLatitude();
 			loc.getLongitude();
-			String Text = "My current location is: " + "Latitude = " + loc.getLatitude() + "Longitud = " + loc.getLongitude();
-			Toast.makeText( parent.getApplicationContext(),Text,Toast.LENGTH_SHORT).show();
-			//text.setText(Text);
-
+			String Text = "\nLat = " + loc.getLatitude() + " Lon = " + loc.getLongitude();
+			text.append(Text);
 		}
 
 		@Override
