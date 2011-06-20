@@ -5,6 +5,6 @@
   android:layout_width="match_parent"
   android:layout_height="match_parent">
     <AnalogClock android:id="@+id/analogClock1" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_width="wrap_content"></AnalogClock>
-    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentRight="true" android:text="@string/Return" android:id="@+id/ret"></Button>
+    <Button android:id="@+id/ret" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/Return" android:layout_toRightOf="@+id/analogClock1" android:layout_alignBottom="@+id/analogClock1"></Button>
     
 </RelativeLayout>
